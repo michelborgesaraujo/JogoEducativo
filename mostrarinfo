@@ -1,0 +1,39 @@
+#include "biblioteca.h"
+
+mostrarInfoNivel1(Calcular calcular){
+
+    puts("---Ainda está muito fácil se desafie!---");
+    puts("---INFORMAÇÕES DETAHADAS---");
+
+    printf("Dificuldade: %d", calcular.dificuldade);
+    printf("Valores: %d - %d", calcular.valor1, calcular.valor2);
+    printf("Tipo de Operação: %d", calcular.operacao);
+}
+
+mostrarInfoNivel2(Calcular calcular){
+    puts("---Jovem Jovem você consegue mais!---");
+    puts("---INFORMAÇÕES DETAHADAS---");
+
+    printf("Dificuldade: %d", calcular.dificuldade);
+    printf("Valores: %d - %d", calcular.valor1, calcular.valor2);
+    printf("Tipo de Operação: %d", calcular.operacao);
+}
+
+mostrarInfoNivel3(Calcular calcular){
+    puts("---Olha temos um mestre da matemática---");
+    puts("---INFORMAÇÕES DETAHADAS---");
+
+    printf("Dificuldade: %d", calcular.dificuldade);
+    printf("Valores: %d - %d", calcular.valor1, calcular.valor2);
+    printf("Tipo de Operação: %d", calcular.operacao);
+}
+
+
+mostrarInfoNivel4(Calcular calcular){
+    puts("---Achamos o novo Einsten---");
+    puts("---INFORMAÇÕES DETAHADAS---");
+
+    printf("Dificuldade: %d", calcular.dificuldade);
+    printf("Valores: %d - %d", calcular.valor1, calcular.valor2);
+    printf("Tipo de Operação: %d", calcular.operacao);
+}
